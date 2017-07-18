@@ -1,22 +1,19 @@
 body {
-	background-color: #40E0D0;
+	background-color: #ffffff;
 	font-family: Helvetica;
-	color:white;
 	text-align: center;
 }
 
-#title {
+.social ul {
+	list-style-type: none;
+}
+
+.social li {
+	display: inline;
+	margin: 30px;
+}
+
+.social a i {
+	color: black;
 	font-size: 50px;
-	top: 33%;
-}
-
-#slogan {
-	font-size: 20px;
-}
-
-#coming soon {
-	font-size: 20px;
-}
-
-#main {
 }
