@@ -1,0 +1,26 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        border-bottom: none;
+    }
+
+    .top-nav-collapse {
+        padding: 0px;
+    }
+
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+}
+
+/*.navbar-default .navbar-nav .active a {
+  background-color: #00cfa1;
+}*/

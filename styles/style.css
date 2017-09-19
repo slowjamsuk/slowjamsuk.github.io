@@ -1,0 +1,497 @@
+
+@font-face {
+    font-family: 'Brown';
+    src: url('WebFont.eot');
+    src: url('../fonts/brown_bold.woff2') format('woff2'),
+         url('../fonts/brown_bold.ttf') format('ttf'),
+         url('../fonts/brown_bold.otf') format('otf'),
+         url('../fonts/brown_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brown_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  /*font-family: Brown;*/
+}
+
+#tagline {
+  color: white;
+}
+
+#arrow {
+  width: 50px;
+}
+
+#arrow:hover {
+  transition:
+    width: 75px;
+}
+
+#arrow {
+  transition: all 0.5s ease;
+  padding: 10px;
+  width: 100px;
+}
+#arrow:hover {
+  padding: 20px;
+  width: 150px;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.team img {
+  width: 150px;
+}
+
+.prize-list img {
+  width: 150px;
+}
+
+/*.fa {
+  color: #162129;
+}*/
+
+#client-list {
+  background-color: #a3cbe6;
+}
+
+#partners {
+  background-color: #a3cbe6;
+}
+
+#clients {
+  background-color: #a3cbe6;
+}
+
+#press {
+  background-color: #a3cbe6;
+}
+
+.client-list img {
+  width: 125px;
+}
+
+#particles-js {
+  background: #0D0D0D;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+.btn-default {
+    background-color: #36454f;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+.arrow {
+  background-color: #36454f;
+  height: 20%;
+  font-family: Brown, Montserrat;
+}
+
+.buttons a {
+  font-family: Brown, Montserrat;
+  margin: 10px;
+}
+
+#hackathon {
+  font-family: Brown, Montserrat;
+  display: inline;
+  /*padding-left: 20px;*/
+}
+
+.about {
+  background-color: white;
+}
+
+#socialmedia {
+  color: white;
+}
+
+#socialmedia:hover {
+  color: black;
+}
+
+#contactform {
+  color: white;
+  font-size: 18px;
+}
+
+#contactform:hover {
+  color: #162129;
+  text-decoration: none;
+}
+
+#mailicon {
+  color: white;
+}
+
+#mailicon:hover {
+  color: #162129;
+  text-decoration: none;
+}
+
+.services {
+  background-color: #e7e7e7;
+  color: #162129;
+}
+
+#name {
+  /*border: none;*/
+  min-width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#email {
+  /*border: none;*/
+  min-width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#company {
+  /*border: none;*/
+  min-width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#jobtitle {
+  /*border: none;*/
+  min-width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#message {
+  /*border: none;*/
+  min-width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+#send {
+  background-color: #00cfa1;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  vertical-align: middle;
+}
+
+#send:hover {
+  background-color: #e6e6e6;
+  background-image: none;
+}
+
+.service-item a i {
+  color: #162129;
+}
+
+.service-item a i:hover {
+  color: #00cfa1;
+}
+
+#hk:hover {
+  color: #ea4a4a;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  background-color: inherit;
+}
+
+#carousel-text {
+  font-size: 1.8em;
+}
+
+#navlogo {
+  display: inline;
+}
+
+#navlogo a img {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.job a i {
+  color: #162129;
+}
+
+.service-text {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  color: #162129;
+}
+
+.service-left i {
+  margin-top: 45px;
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.service-right i {
+  margin-top: 45px;
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+#cards {
+  display: block;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+  /*margin: 10px;*/
+  align-items: center;
+  /*width: 30%;*/
+}
+/*
+#cards-container {
+  display: inline-block;
+}*/
+
+
+#services hr {
+  border-color: #162129;
+}
+
+#eu-logo {
+  display: block;
+  width: 25%;
+  margin:auto;
+  padding-top: 15%;
+}
+
+#hk-logo {
+  display: block;
+  width: 50%;
+  margin:auto;
+  padding-top: 30%;
+}
+
+#hackathon-logos {
+  display: block;
+  width: 50%;
+  margin:auto;
+  padding-top: 30%;
+}
+
+#definiton {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#schedule {
+  background-color: #ea4a4a;
+  color: white;
+}
+
+#prizes {
+  background-color: #ea4a4a;
+  background-image: url("../img/londonskyline.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  color: white;
+}
+
+#prizes-uk {
+  background-color: #00cfa1;
+  color: white;
+  background-image: url("../img/hongkongsky.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+#challenges {
+  background-color: #f2f2f2;
+}
+
+#challenges hr {
+  border-color: black;
+}
+
+.text-muted {
+  color: white;
+}
+
+#hkcards {
+  display: block;
+  background-color: #ea4a4a;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#hkcards .challenge-header {
+  background-color: #ea4a4a;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#hkcards .challenge-header h3 {
+  font-weight: bold;
+}
+
+#hkcards .challenge-bullets {
+  text-align: left;
+  background-color: white;
+}
+
+#hkcards .challenge-bullets ul {
+  list-style-image: url('../img/logo-bullet.png');
+
+}
+
+#hkcards .challenge-bullets ul li {
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#paid {
+  text-align: left;
+  line-height: 60px;
+}
+
+#first {
+  text-align: right;
+  font-size: 60px;
+}
+
+#line {
+  text-align: center;;
+  font-size: 60px;
+}
+
+.triangle {
+  margin: 0 auto;
+  width: 0;
+  height: 10px;
+  border-top: 0 solid;
+  border-left: 0 solid;
+  border-right: 0 solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom: 0 solid white;
+  border-top-width: 0px;
+  border-left-width: 125px;
+  border-right-width: 125px;
+  border-bottom-width: 90px;
+}
+
+
+.schedule-text {
+  background-color: white;
+  box-shadow: 10px 10px 5px #b83b3b;
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+  min-height: 300px;
+}
+
+.schedule-text h1 {
+  color: #ea4a4a;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 0px;
+}
+
+.schedule-text h2 {
+  color: #ea4a4a;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.schedule-text h3 {
+  color: #ea4a4a;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.schedule-text p {
+  color: black;
+  font-size: 14px;
+}
+
+.navbar-default {
+  background-color: #36454f;
+}
+
+.bg-primary {
+  background-color: #36454f;
+}
